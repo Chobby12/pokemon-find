@@ -81,9 +81,9 @@ a{
     background: orangered;
     color: #f0f0f0;
 }
-#find_pokemon{
+/* #find_pokemon{
     font-family: pokeone;
-}
+} */
 .result{
     padding: 20px 0;
     display: grid;
