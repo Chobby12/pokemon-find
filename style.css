@@ -81,9 +81,9 @@ a{
     background: orangered;
     color: #f0f0f0;
 }
-/* #find_pokemon{
-    font-family: pokeone;
-} */
+#find_pokemon{
+    font-family: "Andika", sans-serif;
+}
 .result{
     padding: 20px 0;
     display: grid;
