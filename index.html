@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo">
+        <h1>Pokemon Find</h1>
+        <br>
+        <button class="btn">Some Pokemon Names</button>
+        <div class="panel">
+            Here's a list of 20 Pokémon names:
+            
+            <ul>
+                <li>Pikachu</li>
+                <li>Bulbasaur</li>
+                <li>Charmander</li>
+                <li>Squirtle</li>
+                <li>Jigglypuff</li>
+                <li>Eevee</li>
+                <li>Snorlax</li>
+                <li>Mewtwo</li>
+                <li>Psyduck</li>
+                <li>Gengar</li>
+                <li>Lapras</li>
+                <li>Dragonite</li>
+                <li>Blastoise</li>
+                <li>Venusaur</li>
+                <li>Mew</li>
+                <li>Zapdos</li>
+                <li>Arcanine</li>
+                <li>Gyarados</li>
+                <li>Vaporeon</li>
+                <li>Lucario</li>
+            </ul>
+            These Pokémon come from various generations and types.
+            <p>To find more Pokemons: <a href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_name">Click
+                    Here</a>😊</p>
+        </div>
+        <button class="btn">
+            Devloper
+        </button>
+        <div class="panel">
+            <p>Check Out my Github 👉: <a href="https://github.com/Chobby12">Here</a>😃</p>
+        </div>
+    </div>
+    <main>
+        <div class="contain-operations">
+            <input type="text" placeholder="find pokemon eg: Pikachu" id="find_pokemon">
+            <button type="submit" class="find">Find Pokemon</button>
+        </div>
+        <div class="result">
+            <div class="images">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" width="100px" alt="front-view" title="front-view"
+                    id="poke_image">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/25.png" width="100px" alt="front-view-shiny" title="front-view-shiny"
+                    id="poke_image_two">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/25.png" width="100px" alt="back-view"
+                        id="poke_image_three">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/25.png" width="100px" alt="back-view-shiny" title="back-view-shiny"
+                            id="poke_image_four">
+            </div>
+            
+            <div class="info">
+                <ul class="pokemon-description">
+                    <li>Name: <span class="name">Pikachu</span></li>
+                    <li>Order: <span class="order">35</span></li>
+                    <li>Height: <span class="height">4</span></li>
+                    <li>Weight: <span class="weight">60</span></li>
+                    <li>Abilities: <span class="abilities">Static</span>, <span class="abilities">Lightning-Rod</span>, <span class="abilities">Swift-Swim</span></li>
+                </ul>
+                <!-- <p class="fetch-error">Error</p> -->
+            </div>
+        </div>    
+    </main>
+    <footer>
+        devitobs
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
