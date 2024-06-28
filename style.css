@@ -81,7 +81,7 @@ a{
     background: orangered;
     color: #f0f0f0;
 }
-.find_pokemon{
+#find_pokemon{
     font-family: pokeone;
 }
 .result{
